@@ -666,3 +666,76 @@ main {
     color: #FFFFFF;
     text-transform: uppercase;
 }
+
+.about {
+    width: 80%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about .left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.about .left h3 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: left;
+    color: #181D24;
+}
+
+.about .left p {
+    width: 90%;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    color: #181D24;
+}
+
+.about .left span {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    color: #181D24;
+}
+
+.about .left a {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: center;
+    background-color: #DFE3E7;
+    padding: 26px 16px 26px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.about .right {
+    width: 50%;
+}
+
+.about .right .img1 {
+    position: absolute;
+    width: 392px;
+    height: 538px;
+    left: 610px;
+    gap: 0;
+    border-radius: 6px 6px 6px 60px;
+}
+
+.about .right .img2 {
+    position: relative;
+    width: 588px;
+    height: 667px;
+    top: 120px;
+    left: 778px;
+    gap: 0;
+    border-radius: 6px 60px 6px 6px;
+    border: 1px solid;
+}
