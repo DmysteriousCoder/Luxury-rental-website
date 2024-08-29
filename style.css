@@ -17,7 +17,7 @@ header {
     background-image: url("./images/header.png");
     background-position: center;
     object-fit: cover;
-    height: 80vh;
+    height: 90vh;
 }
 
 .nav-cont {
@@ -101,6 +101,9 @@ nav ul li a {
     background-color: #FFFFFF;
     gap: 3em;
     padding: 10px;
+    border-radius: 10px;
+    border: 2.5px solid #C9BDAB;
+    box-shadow: 0px 20px 0px 0px #181D24B8;
 }
 
 .options .text {
@@ -116,10 +119,45 @@ nav ul li a {
     justify-content: center;
     align-items: center;
     gap: 3em;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
     padding: 20px;
+    color: #181D24;
+}
+
+.options .text .diff {
+    gap: .2em;
+    justify-content: center;
+    align-items: center;
+}
+
+.options .text .diff img {
+    padding-left: 40px;
+}
+
+.options .text .bold {
+    color: #181D24;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
 }
 
 .options button {
-    padding: 10px;
     font-size: 18px;
+    width: 171px;
+    height: 72px;
+    padding: 15px 16px;
+    gap: 8px;
+    border-radius: 0px 10px 10px 10px;
+    opacity: 0px;
+    background-color: #5B656F;
+    border: none;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
 }
