@@ -672,10 +672,12 @@ main {
     margin-top: 100px;
     display: flex;
     justify-content: space-between;
+    height: 787px;
 }
 
 .about .left {
     width: 50%;
+    height: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -718,12 +720,16 @@ main {
 
 .about .right {
     width: 50%;
+    height: 100%;
 }
 
 .about .right .img1 {
     position: absolute;
     width: 392px;
-    height: 538px;
+    height: 50%;
+    display: flex;
+    justify-self: flex-start;
+    align-self: flex-start;
     left: 610px;
     gap: 0;
     border-radius: 6px 6px 6px 60px;
@@ -731,11 +737,23 @@ main {
 
 .about .right .img2 {
     position: relative;
-    width: 588px;
-    height: 667px;
     top: 120px;
-    left: 778px;
     gap: 0;
     border-radius: 6px 60px 6px 6px;
     border: 1px solid;
+    height: 70%;
+    width: 70%;
+    display: flex;
+    align-self: flex-end;
+    justify-self: flex-end;
+    margin-top: 30px;
+}
+
+.cta-cont {
+    width: 100%;
+    background-image: url("./images/cta.png");
+    height: auto;
+    object-fit: cover;
+    background-position: center;
+    height: 835px;
 }
