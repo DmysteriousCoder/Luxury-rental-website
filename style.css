@@ -780,12 +780,13 @@ main {
 .cta .left {
     background-color: #181D24;
     border-radius: 8px 80px 8px 8px;
-    padding: 80px;
+    padding: 50px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     gap: 2em;
+    width: 40%;
 }
 
 .cta .left h4 {
@@ -834,13 +835,55 @@ main {
 .cta .right {
     background-color: #FFFFFF;
     border-radius: 8px 8px 80px 8px;
-    padding: 80px;
+    padding: 40px;
+    width: 60%;
 }
 
-.right h3 {
-    font-size: 52px;
+.cta .right h3 {
+    font-size: 50px;
     font-weight: 700;
     line-height: 64px;
     letter-spacing: 1px;
     text-align: center;
+    color: #181D24;
+}
+
+.cta form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-top: 20px;
+}
+
+.from {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.cta form input {
+    border: none;
+    color: #5B656F;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    width: 50%;
+    border-bottom: 1px solid #181D24;
+}
+
+form label {
+    display: flex;
+}
+
+textarea {
+    border: none;
+    color: #5B656F;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    width: 100%;
+    border-bottom: 1px solid #181D24;
 }
