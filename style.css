@@ -178,6 +178,7 @@ main {
     align-items: center;
     gap: 3em;
     width: 80%;
+    margin-bottom: 100px;
 }
 
 .top-pick .top {
@@ -187,6 +188,17 @@ main {
     align-items: center;
     gap: 1em;
     width: 100%;
+}
+
+.price-txt p {
+    color: #181D24;
+}
+
+.price-txt p span {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
 }
 
 .top-pick .top h1 {
@@ -226,7 +238,7 @@ main {
 }
 
 .top-pick .card .head {
-    height: 60%;
+    height: 65%;
     background-image: url("./images/card1.png");
     border-radius: 8px 8px 30px 8px;
     padding: 20px 0;
@@ -276,4 +288,94 @@ main {
     justify-content: center;
     align-items: flex-end;
     height: 100%;
+}
+
+.top-pick .body {
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1em;
+}
+
+.body .loc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.body .loc .bull {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.loc h6 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.84px;
+    text-align: left;
+}
+
+.loc .bull p {
+    color: #181D24;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.84px;
+    text-align: left;
+}
+
+.body h3 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.infos {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5em;
+    width: 100%;
+}
+
+.infos .info1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.info1 .info {
+    display: flex;
+    gap: .5em;
+    justify-content: center;
+    align-items: center;
+}
+
+.info p {
+    color: #181D24;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+}
+
+.info p span {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+}
+
+.top-pick .card2 .head {
+    background-image: url("./images/carrd2.png");
+}
+
+.top-pick .card3 .head {
+    background-image: url("./images/card3.png");
 }
