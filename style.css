@@ -165,6 +165,7 @@ nav ul li a {
 
 main {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -378,4 +379,78 @@ main {
 
 .top-pick .card3 .head {
     background-image: url("./images/card3.png");
+}
+
+.region-cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background-color: #C9BDAB;
+    padding: 70px 0;
+    border-radius: 0 10px 150px 10px;
+}
+
+.region {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+}
+
+.region .top {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+.region .top h3 {
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: center;
+    color: #181D24;
+}
+
+.region .top p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    width: 50%;
+}
+
+.region .bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    gap: 1em;
+}
+
+.region .bottom .left {
+    background-image: url("./images/right-img.png");
+    width: 50%;
+    height: 610px;
+    gap: 0;
+    border-radius: 3px 80px 3px 80px;
+    object-fit: cover;
+    background-position: center;
+}
+
+.region .bottom .right {
+    background-image: url("./images/left-img.png");
+    width: 50%;
+    height: 610px;
+    gap: 0;
+    border-radius: 80px 3px 80px 3px;
+    object-fit: cover;
+    background-position: center;
 }
