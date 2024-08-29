@@ -10,9 +10,14 @@ body {
 
 header {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     width: 100%;
+    background-image: url("./images/header.png");
+    background-position: center;
+    object-fit: cover;
+    height: 80vh;
 }
 
 .nav-cont {
@@ -21,6 +26,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 
 nav {
@@ -59,4 +65,61 @@ nav ul li a {
     line-height: 24px;
     letter-spacing: 1px;
     text-align: center;
+}
+
+.hero {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    color: #FFFFFF;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+.hero .sub {
+    font-size: 24.89px;
+    font-weight: 500;
+    line-height: 29.22px;
+    letter-spacing: 0.12em;
+    text-align: center;
+    color: #C9BDAB;
+    background-color: #FFFFFFF0;
+    padding: 10px 30px;
+    text-transform: uppercase;
+}
+
+.options {
+    display: flex;
+    background-color: #FFFFFF;
+    gap: 3em;
+    padding: 10px;
+}
+
+.options .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    border-right: 1px solid #DFE3E7;
+}
+
+.options .text p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    padding: 20px;
+}
+
+.options button {
+    padding: 10px;
+    font-size: 18px;
 }
