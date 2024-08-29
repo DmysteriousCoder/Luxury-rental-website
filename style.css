@@ -547,6 +547,7 @@ main {
     line-height: 64px;
     letter-spacing: 1px;
     text-align: center;
+    color: #181D24;
 }
 
 .specialties .down {
@@ -571,6 +572,7 @@ main {
     line-height: 36px;
     letter-spacing: 1px;
     text-align: left;
+    color: #181D24;
 }
 
 .specialties .row a {
@@ -581,6 +583,8 @@ main {
     display: flex;
     align-items: center;
     gap: .5em;
+    color: #5B656F;
+    text-decoration: none;
 }
 
 .specialties .row a img {
@@ -594,4 +598,71 @@ main {
 
 .specialties .down .last {
     border: none;
+}
+
+.host {
+    width: 100%;
+    background-image: url("./images/mosque-pictures-moroccan-wall-pattern.png");
+    border-radius: 0 0 150px 0;
+    margin-top: 150px;
+    height: 729px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.host .join {
+    height: 70%;
+    background-color: #FFFFFFE0;
+    width: 596px;
+    border-radius: 60px 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .7em;
+    padding: 80px;
+}
+
+.join P {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #5B656F;
+}
+
+.join h3 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #181D24;
+}
+
+.join .body {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: #181D24;
+    width: 100%;
+}
+
+.join button {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    background-color: #5B656F;
+    border-radius: 0 10px 10px 10px;
+    padding: 12px 0;
+    width: 100%;
+    border: none;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
 }
