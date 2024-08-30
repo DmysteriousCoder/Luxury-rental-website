@@ -166,11 +166,88 @@ header {
     display: flex;
     flex-direction: column;
     gap: 4em;
+    margin-top: 100px;
 }
 
 .faq .top {
     display: flex;
     flex-direction: column;
-    gap: .5em;
+    gap: 1em;
     width: 100%;
+}
+
+.faq .top h3 {
+    font-family: Rufina;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.faq .top p {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+}
+
+.faq .down {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.faq .left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.faq .left .fq {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-top: 1px solid #DFE3E7;
+    padding-top: 20px;
+    gap: .5em;
+}
+
+.faq .left .fq  p {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: #181D24;
+    text-align: left;
+}
+
+.faq .right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.faq .right .fq {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: .5em;
+    border-top: 1px solid #DFE3E7;
+    padding-top: 20px;
+}
+
+.faq .right .fq  p {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: #181D24;
+    text-align: left;
 }
