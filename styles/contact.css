@@ -47,6 +47,7 @@ header {
     line-height: 40px;
     text-align: center;
     color: #181D24;
+    width: 60%;
 }
 
 .connect {
@@ -88,6 +89,7 @@ header {
     letter-spacing: 1px;
     text-align: center;
     color: #181D24;
+    padding-bottom: 20px;
 }
 
 .connect .fon {
@@ -106,7 +108,26 @@ header {
 }
 
 .connect .add .ad {
-    width: 250px;
+    width: 300px;
+    line-height: 25px;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #181D24;
+}
+
+.connect .add .ad span {
+    margin-top: 100px;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #5B656F;
 }
 
 .connect .socials {
@@ -115,4 +136,41 @@ header {
     justify-content: flex-start;
     align-items: flex-end;
     margin-top: 50px;
+}
+
+.connect p {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.connect .socials img {
+    border: 0px solid #181D24;
+    color: #181D24;
+    background-color: #181D24;
+    border-radius: 50%;
+}
+
+.faq-cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq-cont .faq {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+}
+
+.faq .top {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    width: 100%;
 }
