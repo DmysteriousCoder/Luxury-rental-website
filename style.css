@@ -1144,7 +1144,6 @@ footer .bottom .left {
     nav ul.active .cancel {
         display: flex;
         justify-content: flex-end;
-        width: ;
         padding: 10px;
         border: 1px solid #181D24;
         color: #181D24;

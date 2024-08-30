@@ -6,7 +6,7 @@
 
 body {
     width: 100%;
-    background-color: ;
+    background-color: white;
 }
 
 header {
@@ -250,4 +250,77 @@ header {
     text-align: center;
     color: #181D24;
     text-align: left;
+}
+
+.footer-cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DFE3E7;
+    margin-top: 200px;
+}
+
+.cta {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    align-items: flex-start;
+    background-color: #FFFFFF;
+    border-radius: 8px 8px 80px 8px;
+    height: 506px;
+    justify-content: center;
+    padding: 80px;
+}
+
+.cta h3 {
+    font-family: Rufina;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.cta form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 100%;
+}
+
+.cta form .con-from {
+    display: flex;
+    gap: 1em;
+    width: 100%;
+}
+
+.con-from .name {
+    width: 50%;
+}
+
+.con-from .mail {
+    width: 50%;
+}
+
+.con-from input {
+    border: none;
+    border-bottom: 1px solid #181D24;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.con-from input::placeholder {
+    padding-bottom: 30px;
+}
+
+form textarea {
+    border: none;
+    height: 94px;
+    border-bottom: 1px solid #181D24;
+}
+
+form textarea::placeholder {
+    padding-bottom: 30px;
 }
