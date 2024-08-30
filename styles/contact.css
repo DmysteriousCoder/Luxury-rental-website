@@ -34,9 +34,85 @@ header {
 }
 
 .hero .head h1 {
-    font-size: 30px;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: center;
+    color: #181D24;
+}
+
+.hero .head p {
+    font-size: 24px;
     font-weight: 400;
-    color: aqua;
-    list-style: 87px;
-    text-align: left;
+    line-height: 40px;
+    text-align: center;
+    color: #181D24;
+}
+
+.connect {
+    width: 100%;
+    display: flex;
+    height: 553px;
+}
+
+.connect .left {
+    background-image: url("../images/connect.png");
+    width: 55%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+    border-radius: 0 0 0 120px;
+    object-fit: cover;
+    background-position: center;
+}
+
+.connect .right {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F3F1;
+    border-radius: 0 120px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 80px;
+    gap: 1em;
+}
+
+.connect .right h3 {
+    font-family: Rufina;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #181D24;
+}
+
+.connect .fon {
+    display: flex;
+    gap: 2em;
+}
+
+.connect .mail {
+    display: flex;
+    gap: 2.3em;
+}
+
+.connect .add {
+    display: flex;
+    gap: 1em;
+}
+
+.connect .add .ad {
+    width: 250px;
+}
+
+.connect .socials {
+    display: flex;
+    gap: 1em;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-top: 50px;
 }
