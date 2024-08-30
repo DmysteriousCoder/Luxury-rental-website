@@ -1325,13 +1325,13 @@ footer .bottom .left {
 
     .specialties .row {
         display: flex;
-        gap: .5em;
+        flex-direction: row;
+        gap: 1em;
         border-right: 0;
         border-bottom: 1px solid #C9BDAB;
         padding: 30px 0;
         align-items: flex-start;
         justify-content: center;
-        gap: 1em;
     }
 
 
@@ -1340,5 +1340,76 @@ footer .bottom .left {
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
+    }
+
+    .specialties .row .text  p {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 1px;
+        text-align: left;
+    }
+
+    .specialties .row a {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: left;
+    }
+
+    .host {
+        width: 100%;
+        border-radius: 0 0 80px 0;
+        background-image: url("./images/mosque-pictures-moroccan-wall-pattern\ mobile.png");
+        object-fit: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .host .join {
+        width: 90%;
+        border-radius: 60px 4px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: .7em;
+    }
+
+    .join p {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 2px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .join h3 {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 44px;
+        letter-spacing: 1px;
+        text-align: left;
+    }
+
+    .join .body {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .join button {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: left;
+        text-transform: uppercase;
+        background-color: #5B656F;
+        color: #FFFFFF;
     }
 }
