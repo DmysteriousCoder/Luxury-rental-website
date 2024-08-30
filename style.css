@@ -1239,5 +1239,106 @@ footer .bottom .left {
         text-align: left;
     }
 
+    .region-cont {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 0 10px 60px 10px;
+    }
 
+    .region {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .region .top h3 {
+        font-size: 44px;
+        font-weight: 700;
+        line-height: 52px;
+        letter-spacing: 1px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .region .top p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .region .bottom {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .region .bottom .left {
+        width: 100%;
+        height: 450px;
+        gap: 0;
+        border-radius: 3px 80px 3px 80px;
+        object-fit: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .region .bottom .right {
+        width: 100%;
+        gap: 0;
+        border-radius: 80px 3px 80px 3px;
+        object-fit: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .specialties {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5em;
+    }
+
+    .specialties h1 {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 44px;
+        letter-spacing: 1px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .specialties .down  {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .specialties .row {
+        display: flex;
+        gap: .5em;
+        border-right: 0;
+        border-bottom: 1px solid #C9BDAB;
+        padding: 30px 0;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 1em;
+    }
+
+
+    .specialties .row .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
 }
