@@ -260,7 +260,7 @@ header {
     background-color: #DFE3E7;
     margin-top: 200px;
     position: relative;
-    margin-top: 400px;
+    margin-top: 200px;
 }
 
 .cta {
@@ -275,7 +275,7 @@ header {
     justify-content: center;
     padding: 80px;
     position: absolute;
-    top: 100px;
+    top: -50px;
     z-index: 3;
 }
 
@@ -385,10 +385,10 @@ footer .head {
     align-items: flex-start;
 }
 
-footer .logo p {
+footer .head .left .logo p {
     font-family: Raleway;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 24px;
     letter-spacing: 2px;
     text-align: left;
@@ -422,6 +422,21 @@ footer .head .right h6 {
     text-align: left;
 }
 
+footer .head .right .body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+footer .head .right .body p {
+    color: #181D24;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+}
+
 footer .head .right .socials {
     display: flex;
     gap: .5em;
@@ -444,4 +459,82 @@ footer .down {
     justify-content: space-between;
     align-items: flex-end;
     width: 100%;
+}
+
+footer .down .left {
+    display: flex;
+    gap: 1em;
+}
+
+
+footer .down .left p {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+}
+
+footer .down .right {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+footer .down .right p {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+}
+
+
+@media  (max-width: 420px){
+    header {
+        flex-direction: column;
+    }
+
+    .hero {
+        width: 90%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero .head {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero .head h1 {
+        color: #181D24;
+        font-family: Rufina;
+        font-size: 44px;
+        font-weight: 700;
+        line-height: 52px;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
+    .hero .head p {
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .connect {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 1000px;
+    }
+
+    .connect .left {
+        width: 100%;
+    }
 }
