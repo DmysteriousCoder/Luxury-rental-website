@@ -391,7 +391,52 @@ footer .logo p {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 2px;
-    text-align: center;
+    text-align: left;
+    text-transform: uppercase;
+    color: #181D24;
+}
+
+footer .head .left P {
+    color: #5B656F;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    width: 600px;
+}
+
+footer .head .right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1.5em;
+}
+
+footer .head .right h6 {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+}
+
+footer .head .right .socials {
+    display: flex;
+    gap: .5em;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+footer .head .right .socials img {
+    color: #181D24;
+    background-color: #181D24;
+}
+
+footer .head .right .socials .not {
+    color: white;
+    background-color: white;
 }
 
 footer .down {
