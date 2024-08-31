@@ -597,5 +597,36 @@ footer .down .right p {
 
     .faq-cont .faq  {
         width: 90%;
+        flex-direction: column;
+        gap: 3em;
+    }
+
+    .faq .top {
+        display: flex;
+        flex-direction: column;
+        gap: .7em;
+    }
+
+    .faq .top h3 {
+        font-family: Rufina;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 44px;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
+    .faq .top p {
+        font-family: Raleway;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .faq .down  {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
     }
 }
