@@ -153,3 +153,80 @@ header {
     justify-self: flex-end;
     margin-top: 30px;
 }
+
+.cta-cont {
+    width: 100%;
+    background-image: url("./images/cta.png");
+    height: auto;
+    object-fit: contain;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.cta {
+    position: absolute;
+    bottom: -100px;
+    background: transparent;
+    width: 80%;
+    display: flex;
+    gap: 1em;
+}
+
+.cta .left {
+    background-color: #181D24;
+    border-radius: 8px 80px 8px 8px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2em;
+    width: 40%;
+}
+
+.cta .left h4 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.cta .fon {
+    display: flex;
+    gap: 2em;
+}
+
+.cta .mail {
+    display: flex;
+    gap: 2.3em;
+}
+
+.cta .ad {
+    display: flex;
+    gap: 1em;
+}
+
+.cta .socials {
+    display: flex;
+    gap: 1em;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-top: 50px;
+}
+
+.cta .left p {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #FFFFFF;
+}
