@@ -559,4 +559,81 @@ body {
         align-items: flex-end;
         margin-top: 50px;
     }
+
+    .cta .socials {
+        display: flex;
+        gap: 1em;
+        justify-content: flex-start;
+        align-items: flex-end;
+        margin-top: 50px;
+    }
+    
+    .cta .left p {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 1px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    
+    .cta .right {
+        background-color: #FFFFFF;
+        border-radius: 8px 8px 80px 8px;
+        padding: 40px;
+        width: 60%;
+    }
+    
+    .cta .right h3 {
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 64px;
+        letter-spacing: 1px;
+        text-align: center;
+        color: #181D24;
+    }
+    
+    .cta form {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        margin-top: 50px;
+    }
+    
+    .from {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0.5em;
+    }
+    
+    .cta form .diff {
+        border: none;
+        color: #5B656F;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: left;
+        width: 50%;
+        border-bottom: 1px solid #181D24;
+        padding-left: 0;
+        padding-bottom: 10px;
+    }
+    
+    form label {
+        display: flex;
+    }
+    
+    textarea {
+        border: none;
+        color: #181D24;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: left;
+        width: 100%;
+        border-bottom: 1px solid #181D24;
+        padding: 0 0 10px 0;
+        height: 100px;
+    }
 }
