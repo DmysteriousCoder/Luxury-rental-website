@@ -628,5 +628,96 @@ footer .down .right p {
         width: 100%;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        gap: 1em;
+    }
+
+    .faq .left  {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .faq .left .fq  p {
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: left;
+    }
+
+    .faq .right  {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .faq .right .fq  p {
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: left;
+    }
+
+    .footer-cont {
+        width: 100%;
+    }
+
+    .cta {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 3em;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 40px;
+    }
+
+    .cta h3 {
+        font-family: Rufina;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 44px;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
+   .cta form {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        width: 100%;
+    }
+
+    .con-from {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+     .con-from input  {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        width: 100%;
+    }
+
+    .con-from .name {
+        width: 100%;
+    }
+    
+    .con-from .mail {
+        width: 100%;
+    }
+
+    .con-from input::placeholder {
+        font-family: Raleway;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: left;
     }
 }
