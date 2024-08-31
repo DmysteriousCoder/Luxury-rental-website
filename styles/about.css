@@ -139,3 +139,17 @@ header {
     border-radius: 6px 6px 6px 60px;
     border: 10px solid #F5E9D6;
 }
+
+.about .right .img2 {
+    position: relative;
+    top: 120px;
+    gap: 0;
+    border-radius: 6px 60px 6px 6px;
+    border: 1px solid;
+    height: 70%;
+    width: 70%;
+    display: flex;
+    align-self: flex-end;
+    justify-self: flex-end;
+    margin-top: 30px;
+}
