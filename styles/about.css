@@ -65,3 +65,77 @@ header {
     text-align: left;
     color: #181D24;
 }
+
+.about {
+    width: 80%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    height: 1787px;
+}
+
+.about .left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.about .left h3 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: left;
+    color: #181D24;
+}
+
+.about .left p {
+    width: 90%;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    color: #181D24;
+}
+
+.about .left span {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    color: #181D24;
+}
+
+.about .left a {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: center;
+    background-color: #DFE3E7;
+    padding: 26px 16px 26px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: flex;
+    align-self: flex-end;
+    margin-top: 60px;
+    margin-right: 30px;
+}
+
+.about .right {
+    width: 50%;
+    height: 100%;
+}
+
+.about .right .img1 {
+    position: absolute;
+    width: 392px;
+    height: 65%;
+    display: flex;
+    justify-self: flex-start;
+    align-self: flex-start;
+    left: 610px;
+    gap: 0;
+    border-radius: 6px 6px 6px 60px;
+    border: 10px solid #F5E9D6;
+}
