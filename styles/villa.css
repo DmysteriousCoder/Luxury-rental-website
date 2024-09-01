@@ -610,4 +610,69 @@ header {
         justify-content: center;
         gap: 3em;
     }
+
+    .menities h5 {
+        font-family: Rufina;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 27px;
+        letter-spacing: 1px;
+        text-align: left;
+        color: #181D24;
+    }
+    
+    .menities .down {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 4em;
+    }
+    
+    .menities .down .col{
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+    
+    .menities .down .col .img {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1em;
+    }
+    
+    .dist {
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+    
+    .dist h5 {
+        font-family: Rufina;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 27px;
+        letter-spacing: 1px;
+        text-align: left;
+        color: #181D24;
+    }
+    
+    .dist .down {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .dist .down .col {
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    
 }
