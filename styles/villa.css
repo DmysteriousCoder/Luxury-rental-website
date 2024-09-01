@@ -157,6 +157,82 @@ header {
     gap: 1.5em;
 }
 
+.more .left .log h4 {
+    font-family: Rufina;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.more .left .log p {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+}
+
+.s-log .sl h5 {
+    font-family: Rufina;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.s-log .sl p {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+}
+
+.menities {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.menities h5 {
+    font-family: Rufina;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.menities .down {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 3em;
+}
+
+.menities .down .col{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.menities .down .col .img {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: .5em;
+}
+
+.dist {
+    display: flex;
+    flex-direction: column;
+}
+
 .more .right {
     width: 45%;
     gap: 1em;
