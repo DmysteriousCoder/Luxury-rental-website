@@ -16,6 +16,7 @@ header {
     width: 100%;
     justify-content: center;
     align-items: center;
+    background-color: #C9BDAB;
 }
 
 .hero {
@@ -32,4 +33,59 @@ header {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+}
+
+.hero .head .left {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.hero .head .left h2 {
+    text-transform: none;
+    font-family: Rufina;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.hero .head .right {
+    display: flex;
+    gap: 1em;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.hero .head .right p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5em;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.hero .body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5em;
+}
+
+.hero .body .left {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
 }
