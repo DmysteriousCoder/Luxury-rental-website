@@ -196,6 +196,7 @@ header {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    gap: 2em;
 }
 
 .menities h5 {
@@ -231,14 +232,95 @@ header {
 .dist {
     display: flex;
     flex-direction: column;
+    gap: 2em;
+}
+
+.dist h5 {
+    font-family: Rufina;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #181D24;
+}
+
+.dist .down {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.dist .down .col {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.dist .down .col .list {
+    display: flex;
+    gap: .5em;
+    justify-content: center;
+    align-items: center;
+}
+
+.kitch h5 {
+    font-family: Rufina;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.kitch .down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.kitch .down .col {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.kitch .down .col .list {
+    display: flex;
+    gap: .5em;
+    justify-content: center;
+    align-items: center;
 }
 
 .more .right {
     width: 45%;
-    gap: 1em;
+    gap: 1.5em;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding: 80px;
+    padding: 80px 100px;
+    background-color: #181D24;
+    border-radius: 10px 10px 60px 10px;
+}
+
+.more .right h3 {
+    font-family: Rufina;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.more .right .contact {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
 }
