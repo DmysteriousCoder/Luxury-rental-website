@@ -16,6 +16,8 @@ header {
     gap: 5em;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(360deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 64.5%),
+                         linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 53.73%);
 }
 
 .hero {
@@ -43,4 +45,70 @@ header {
     line-height: 72px;
     text-align: center;
     color: #FFFFFF;
+}
+
+.hero .options {
+    display: flex;
+    background-color: #FFFFFF;
+    gap: 3em;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2.5px solid #C9BDAB;
+    box-shadow: 0px 20px 0px 0px #181D24B8;
+}
+
+.hero .options .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    border-right: 1px solid #DFE3E7;
+}
+
+.hero .options .text p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    padding: 20px;
+    color: #181D24;
+}
+
+.hero .options .text .diff {
+    gap: .2em;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .options .text .diff img {
+    padding-left: 40px;
+}
+
+.hero .options .text .bold {
+    color: #181D24;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+}
+
+.hero .options button {
+    font-size: 18px;
+    width: 171px;
+    height: 72px;
+    padding: 15px 16px;
+    gap: 8px;
+    border-radius: 0px 10px 10px 10px;
+    opacity: 0px;
+    background-color: #5B656F;
+    border: none;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
 }
