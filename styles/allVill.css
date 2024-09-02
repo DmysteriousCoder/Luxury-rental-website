@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.hero .head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.hero .head h1 {
+    font-family: Rufina;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: center;
+    color: #FFFFFF;
+}
